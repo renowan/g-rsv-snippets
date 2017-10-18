@@ -2,6 +2,9 @@
 
 Vue.js 2.x + ES6 snippets for Atom
 
+## Need this package
+(language-vue)[https://atom.io/packages/language-vue]
+
 ### import
 ```Javascript
 i-cal              // import calendar from '../../../components/ui/Calendar.vue'
