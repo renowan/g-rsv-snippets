@@ -20,6 +20,10 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renowan/g-rsv-snippets.git"
+  },
   "dependencies": {
   }
 }
