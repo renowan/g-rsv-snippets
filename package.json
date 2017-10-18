@@ -1,6 +1,6 @@
 {
   "name": "g-rsv-snippets",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Vue.js 2.x ES6 snippets for private project.",
   "keywords": [
     "vue",
@@ -11,7 +11,10 @@
   "activationCommands": {
     "atom-workspace": "g-rsv-snippets:toggle"
   },
-  "repository": "https://github.com/renowan/g-rsv-snippets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renowan/g-rsv-snippets.git"
+  },
   "license": "MIT",
   "author": {
     "name": "Reno Wan"
@@ -19,10 +22,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/renowan/g-rsv-snippets.git"
-  },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
