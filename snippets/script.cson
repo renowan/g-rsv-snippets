@@ -1,0 +1,43 @@
+'.source.js':
+  '[g-rsv] script: computed mapGetters':
+    'prefix': 's-cptd',
+    'body': """
+    computed: objectAssign({},
+      mapGetters({
+        app: 'app',
+      }),
+      {
+
+      }
+    ),
+    """
+  '[g-rsv] script: computed getter setter':
+    'prefix': 's-gtst',
+    'body': """
+      ${1:name}: {
+        get () {
+          return this.${2:foo}
+        },
+        set (val) {
+          this.$store.dispatch('namespaced/something', { key: 'subject', value: val })
+          this.$store.commit('namespaced/SOME_THING', val)
+        }
+      },
+    """
+  '[g-rsv] script: methods func':
+    'prefix': 's-func',
+    'body': """
+      ${1:func} () {
+
+      }
+    """
+  '[g-rsv] script vuex: dispatch':
+    'prefix': 's-dispatch',
+    'body': """
+      this.$store.dispatch('namespaced/something', value)
+    """
+  '[g-rsv] script vuex: commit':
+    'prefix': 's-commit',
+    'body': """
+      this.$store.commit('namespaced/SOME_THING', val)
+    """

@@ -1,0 +1,59 @@
+'.text.html.vue':
+  '[g-rsv] Template Tag: calendar':
+    'prefix': 't-calendar',
+    'body': """
+    <calendar
+      v-model="${1:date}"
+      :format="yyyyMMdd"
+      width="100px"
+      :min-date="minDate"
+      :max-date="maxDate"
+      today="today"
+      :readonly="true"
+      calendarIcon>
+    </calendar>
+    """
+  '[g-rsv] Template Tag: timePicker':
+    'prefix': 't-timePicker',
+    'body': """
+      <time-picker
+      v-model="${1:date}"
+      min-value="0600"
+      max-value="2945"
+      :disabled="allDayFlg"
+      :width="100">
+      </time-picker>
+    """
+  '[g-rsv] Template Tag: useTimePicker':
+    'prefix': 't-useTimePicker',
+    'body': """
+      <use-time-picker
+      v-model="${1:date}"
+      :min-value="15"
+      :max-value="maxVal"
+      :disabled="allDayFlg"
+      :width="130">
+      </use-time-picker>
+    """
+  '[g-rsv] Template Tag: custom checkBox':
+    'prefix': 't-checkBox',
+    'body': """
+      <custom-checkbox
+      cls=""
+      v-model="${1:value}"
+      label="${2:lable}">
+      </custom-checkbox>
+    """
+  '[g-rsv] Template Tag: numberInput':
+    'prefix': 't-numberInput',
+    'body': """
+      <number-input
+      class=""
+      v-model="${1:value}"
+      :min-value="1"
+      :max-value="99"
+      root-class=""
+      counter-class=""
+      :disabled="false">
+      </number-input>
+    """

@@ -1,0 +1,61 @@
+'.source.js':
+  '[g-rsv] import ui: calendar':
+    'prefix': 'i-cal',
+    'body': """
+    import calendar from '../../../components/ui/Calendar.vue'
+    """
+  '[g-rsv] import ui: timePicker':
+    'prefix': 'i-timePicker',
+    'body': """
+    import timePicker from '../../../components/ui/TimePicker.vue'
+    """
+  '[g-rsv] import ui: useTimePicker':
+    'prefix': 'i-useTimePicker',
+    'body': """
+    import useTimePicker from '../../../components/ui/UseTimePicker.vue'
+    """
+  '[g-rsv] import ui: numberInput':
+    'prefix': 'i-numberInput',
+    'body': """
+    import numberInput from '../../../components/ui/NumberInput.vue'
+    """
+  '[g-rsv] import ui: loading':
+    'prefix': 'i-loading',
+    'body': """
+    import loading from '../../../components/ui/Loading.vue'
+    """
+  '[g-rsv] import ui: modal':
+    'prefix': 'i-modal',
+    'body': """
+    import modal from '../../../components/ui/Modal.vue'
+    """
+  '[g-rsv] import ui: select':
+    'prefix': 'i-select',
+    'body': """
+    import uiSelect from '../../../components/ui/Select.vue'
+    """
+  '[g-rsv] import other: rsvProperty':
+    'prefix': 'i-rsvProp',
+    'body': """
+    import { ${1:func} } from '../../../common/utils/rsvProperty'
+    """
+  '[g-rsv] import other: mapGetters':
+    'prefix': 'i-mapGetters',
+    'body': """
+    import { mapGetters } from 'vuex'
+    """
+  '[g-rsv] import other: objectAssign':
+    'prefix': 'i-obja',
+    'body': """
+    import objectAssign from 'object-assign'
+    """
+  '[g-rsv] import utils: lodash':
+    'prefix': 'i-lodash',
+    'body': """
+    import { ${1:something} } from 'lodash'
+    """
+  '[g-rsv] import utils: moment':
+    'prefix': 'i-moment',
+    'body': """
+    import moment from 'moment'
+    """
