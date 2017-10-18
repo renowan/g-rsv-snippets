@@ -1,6 +1,5 @@
 {
   "name": "g-rsv-snippets",
-  "main": "./lib/g-rsv-snippets",
   "version": "0.0.1",
   "description": "Vue.js 2.x ES6 snippets for private project.",
   "keywords": [
